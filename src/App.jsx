@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Header from './components/header'
 import Banner from './components/Banner'
 import ProductCard from './components/ProductCard'
 import products from './data/productData'
 import "./App.css";
+import Header from './components/Header';
 const App = () => {
   const[cartCount,setcartCount]= useState(0);
 
