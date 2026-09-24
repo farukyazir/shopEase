@@ -1,5 +1,6 @@
 import React from 'react'
-const Header = ({cartCount}) => {
+
+const Header = () => {
   return (
     <div className='header'>
         <h1>logo</h1>
